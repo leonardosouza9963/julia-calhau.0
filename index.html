@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Previsão do Tempo</h1>
+        
+        <!-- Caixa para a pesquisa -->
+        <div class="input-container">
+            <input type="text" id="inputCidade" class="input-cidade" placeholder="Digite o nome da cidade">
+            <button class="botao-busca" onclick="buscarPrevisao()">🔍</button>
+        </div>
+
+        <!-- Exibição dos dados -->
+        <div class="previsao">
+            <h2 id="cidade">São Paulo</h2>
+            <p id="temp" class="temp">25º C</p>
+            <p id="descricao" class="descricao">Ensolarado</p>
+            <img id="icone" class="icone" src="https://openweathermap.org/img/wn/01d.png" alt="Ícone do tempo">
+            <p id="umidade" class="umidade">Umidade: 65%</p>
+        </div>
+    </div>
+</body>
+</html>

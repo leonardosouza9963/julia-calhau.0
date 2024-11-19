@@ -1,0 +1,101 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1f1f1f; /* Fundo escuro para a caixa */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    transition: all 0.3s ease;
+}
+
+.titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #03a9f4;  /* Azul claro */
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.input-cidade {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #e0e0e0;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-cidade:focus {
+    border-color: #03a9f4;
+}
+
+.botao-busca {
+    padding: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.botao-busca:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para os dados da previsão */
+.previsao {
+    margin-top: 20px;
+}
+
+.cidade {
+    font-size: 28px;
+    font-weight: bold;
+    color: #03a9f4;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FF9800; /* Cor quente para a temperatura */
+}
+
+.descricao {
+    font-size: 22px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.icone {
+    margin: 20px 0;
+}
+
+.umidade {
+    font-size: 18px;
+    color: #777;
+}
