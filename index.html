@@ -1,34 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Previsão do Tempo</title>
+    <meta name="description" content="Site oficial da banda de black metal Covenant of Shadows.">
+    <title>Covenant of Shadows - Banda de Black Metal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="titulo">Previsão do Tempo</h1>
-        
-        <!-- Caixa para a pesquisa -->
-        <div class="input-container">
-            <input type="text" id="inputCidade" class="input-cidade" placeholder="Digite o nome da cidade">
-            <button class="botao-busca" onclick="buscarPrevisao()">🔍</button>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Covenant of Shadows</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#membros">Membros</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#discografia">Discografia</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <!-- Exibição dos dados -->
-        <div class="previsao">
-            <h2 id="cidade">São Paulo</h2>
-            <p id="temp" class="temp">25º C</p>
-            <p id="descricao" class="descricao">Ensolarado</p>
-            <img id="icone" class="icone" src="https://openweathermap.org/img/wn/01d.png" alt="Ícone do tempo">
-            <p id="umidade" class="umidade">Umidade: 65%</p>
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section" style="background-image: '); background-size: cover; background-position: center;">
+        <div class="container">
+            <h2>Sobre a Banda</h2>
+            <p>"Covenant of Shadows" é uma banda de black metal formada em 2010, conhecida por suas performances abaladoras e epicas. Com um estilo agressivo e atmosférico, a banda se destaca por suas letras que exploram o que eles pensam, a escuridão e os mistérios do além. Seu novo álbum, "Eternal Darkness", promete levar o público a uma viagem imersiva pelas profundezas do inferno e da noite eterna.</p>
         </div>
-    </div>
-    <footer>
-        leonardo de souza 
-    </footer>
-</body>
-</html>
+    </section>
+
+    <!-- Seção Membros -->
+    <section id="membros" class="section">
+        <div class="container">
+            <h2>Membros da Banda</h2>
+            <ul>
+                <li><strong>Vocalista:</strong> Kaelin Darkshadow (Kaelin Sombras Escuras)</li>
+                <li><strong>Guitarrista:</strong> Thorne Blackwood (Thorne Madeira Negra)</li>
+                <li><strong>Baixista:</strong> Xandros Darksong (Xandros Canção Sombria)</li>
+                <li><strong>Baterista:</strong> Korvus Infernus (Korvus Infernal)</li>
+                <li><strong>Tecladista/Sintetizador:</strong> Lysander Noctis (Lysander Noite)</li>
+            </ul>
+        </div>
+        <div class="container">
+            <!-- Imagem da banda -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8bQJjVqrFDo?si=dqXrkIIAraD6nlJZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="https://img-cdn.pixlr.com/image-generator/history/674721da7c55655b3083b0a7/6048f28c-e545-47bc-a9f1-b617a1715ac7/preview.webp" alt="Imagem da banda" class="imagem-banda">
+        </div>
+    </section>
+
+    <!-- Seção Discografia -->
+    <section id="discografia" class="section" style= "background-color: #1a1a1a;">
+        <div class="container">
+            <h2>Discografia</h2>
+            <p>Confira abaixo os álbuns lançados pela banda "Covenant of Shadows", cada um com seu próprio estilo sombrio e único.</p>
+
+            <div class="albuns">
+                <!-- Álbum 1 -->
+                <div class="album">
+                    <img src="https://img-cdn.pixlr.com/image-generator/history/674721da7c55655b3083b0a7/f71ba808-9a8e-4811-b6ba-67e54ee4691e/preview.webp" alt="Eternal Darkness" class="album-capa">
+                    <h3>Eternal Darkness (2024)</h3>
+                    <p>O mais recente álbum da banda, mergulhando nas profundezas da escuridão infinita.</p>
+                </div>
+
+                <!-- Álbum 2 -->
+                <div class="album">
+                    <img src="https://img-cdn.pixlr.com/image-generator/history/674721da7c55655b3083b0a7/97a2cdd6-7824-476d-9739-2fcb85c72335/preview.webp" alt="Shadows of the Ancients" class="album-capa">
+                    <h3>Shadows of the Ancients (2022)</h3>
+                    <p>Uma jornada através de civilizações esquecidas e suas lendas sombrias.</p>
+                </div>
+
+                <!-- Álbum 3 -->
+                <div class="album">
+                    <img src="https://img-cdn.pixlr.com/image-generator/history/6746faf35b93b76f61311172/aec93b01-00cb-4721-bec6-743a6ccc9d57/preview.webp" alt="Darkness Rising" class="album-capa">
+                    <h3>Darkness Rising (2020)</h3>
+                    <p>O renascimento das forças sombrias, trazendo uma nova era para o black metal.</p>
+                </div>
+
+                <!-- Álbum 4 -->
+                <div class="album">
+                    <img src="https://img-cdn.pixlr.com/image-generator/history/6746faf35b93b76f61311172/b3156e58-780a-42c1-818d-f91b186f382e/preview.webp" alt="Fires of Doom" class="album-capa">
+                    <h3>Fires of Doom (2018)</h3>
+                    <p>Exploração das chamas do inferno e da destruição que elas trazem.</p>
+                </div>
+
+                <!-- Álbum 5 -->
+                <div class="album">
+                    <img src="https://img-cdn.pixlr.com/image-generator/history/67470466c5fea4eb286c2c8d/0cdf9508-60e2-4fbb-a93f-ec6c08b0f63b/preview.webp" alt="Embrace the Dark" class="album-capa">
+                    <h3>Embrace the Dark (2016)</h3>
+                    <p>Aceitando o lado mais sombrio da alma humana e da própria existência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Eventos -->
+    <section id="eventos" class="section">
+        <div class="container">
+            <h2>Próximos Eventos</h2>
+
+            <!-- Evento 1 -->
+            <div class="evento">
+                <h3>Inferno Fest</h3>
+                <p><strong>Local:</strong> Clube de Música "The Pit", São Paulo, Brasil</p>
+                <p><strong>Data:</strong> 15 de março de 2024</p>
+                <p><strong>Horário:</strong> 22h00</p>
+                <p><strong>Banda de Abertura:</strong> Crimson Requiem</p>
+                <p><strong>Descrição:</strong> O Inferno Fest é um festival de música que reúne as melhores bandas de metal do Brasil. A banda "Covenant of Shadows" será a atração principal do festival, apresentando seu novo álbum "Eternal Darkness".</p>
+
+
+            <!-- Evento 2 -->
+            <div class="evento">
+                <h3>Black Metal Night</h3>
+                <p><strong>Local:</strong> Casa de Shows "The Crypt", Buenos Aires, Argentina</p>
+                <p><strong>Data:</strong> 28 de abril de 2024</p>
+                <p><strong>Horário:</strong> 20h00</p>
+                <p><strong>Banda de Abertura:</strong> Shadowborn</p>
+                <p><strong>Descrição:</strong> A Black Metal Night reúne as melhores bandas de black metal da Argentina. A banda "Covenant of Shadows" será a convidada especial, apresentando um setlist com suas músicas mais sombrias e intensas.</p>
+
+
+            <!-- Evento 3 -->
+            <div class="evento">
+                <h3>Rock in Rio - Noite de Metal</h3>
+                <p><strong>Local:</strong> Parque Olímpico do Rio de Janeiro, Brasil</p>
+                <p><strong>Data:</strong> 12 de outubro de 2024</p>
+                <p><strong>Hor
